@@ -1,0 +1,21 @@
+info:
+  description: Spring Cloud Samples
+  url: https://github.com/smile18/spring-config-repo
+
+
+---
+spring:
+ profiles: cassandra
+ hostnames: "myHost"
+ username: "myUser"
+ password: "myPassword"
+
+---
+spring:
+ profiles: graphite
+ host: "graphHost"
+ port: "8092"
+ report:
+  schedule: "re"
+ enable: "true"
+
