@@ -1,0 +1,22 @@
+server:
+  port: 8000
+cassandra:
+  hostnames: "myOrHost"
+  username: "myOrUser"
+  password: "myOrPassword"
+
+---
+spring:
+  profiles: dev
+cassandra:
+  hostnames: "myDOrHost"
+  username: "myDOrUser"
+  password: "myDOrpassword"
+---
+spring:
+  profiles: test
+cassandra:
+  hostnames: "myTOrHost"
+  username: "myTOrUser"
+  password: "myTOrpassword"
+
