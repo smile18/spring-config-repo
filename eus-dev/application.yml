@@ -6,16 +6,16 @@ info:
 ---
 spring:
  profiles: cassandra
- hostnames: "myHost"
- username: "myUser"
- password: "myPassword"
+  hostnames: "myHost"
+  username: "myUser"
+  password: "myPassword"
 
 ---
 spring:
  profiles: graphite
- host: "graphHost"
- port: "8092"
- report:
-  schedule: "re"
- enable: "true"
+  host: "graphHost"
+  port: "8092"
+  report:
+    schedule: "re"
+  enable: "true"
 
