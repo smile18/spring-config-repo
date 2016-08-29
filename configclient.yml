@@ -12,16 +12,14 @@ cassandra:
 ---
 spring:
   profiles: dev
-  dev:
-    cassandra:
-      hostname: "myDHost"
-      userName: "myDUser"
-      password: "myDpassword"
+  cassandra:
+    hostname: "myDHost"
+    userName: "myDUser"
+    password: "myDpassword"
 ---
 spring:
   profiles: test
-  test:
-    cassandra:
-      hostname: "myTHost"
-      userName: "myTUser"
-      password: "myTpassword"
+  cassandra:
+    hostname: "myTHost"
+    userName: "myTUser"
+    password: "myTpassword"
