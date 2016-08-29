@@ -1,0 +1,10 @@
+configuration:
+  projectName: configclient
+server:
+  port: 8000
+message:
+  greeting: Hello from the configuration!
+cassandra:
+  hostnames: "myHost"
+  username: "myUser"
+  password: "myPassword"
