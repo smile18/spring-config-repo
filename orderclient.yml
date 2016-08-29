@@ -19,4 +19,10 @@ cassandra:
   hostnames: "myTOrHost"
   username: "myTOrUser"
   password: "myTOrpassword"
+graphite:
+  host: "graphHost"
+  port: "8092"
+  report:
+    schedule: "re"
+  enable: "true"
 
