@@ -3,7 +3,7 @@ server:
 cassandra:
   hostnames: "myOrHost"
   username: "myOrUser"
-  password: "myOrPassword"
+  #password: "myOrPassword"
 
 ---
 spring:
